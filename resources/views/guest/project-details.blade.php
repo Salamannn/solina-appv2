@@ -38,7 +38,7 @@
                         </ul>
                     </div>
                     <h5 class="mt-4">{{ $project->project_name }}</h5>
-                    <p>{{ $project->description }}</p>
+                    <p>{{ $description }}</p>
                 </div>
             </div>
         </div>

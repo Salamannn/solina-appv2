@@ -21,6 +21,7 @@ class HomeController extends Controller
             'foundermsg' => $locale === 'id' ? $home->foundermsg_id : $home->foundermsg_en,
             'about' => $locale === 'id' ? $about->about_id : $about->about_en,
             'projects' => $projects, // Kirim data proyek ke view
+            'lang' => $locale
         ]);
     }
 

@@ -24,6 +24,7 @@
                             <i class="fa-solid fa-quote-left text-white"></i>
                         </div>
                     </div>
+                    
                     <h5 class="mb-3">Vision</h5>
                     <span>{{ $visi }}</span>
                 </div>
